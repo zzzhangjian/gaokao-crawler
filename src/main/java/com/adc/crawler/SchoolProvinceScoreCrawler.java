@@ -53,7 +53,7 @@ public class SchoolProvinceScoreCrawler extends AbstractCrawler {
         int remain;
         do {
             CountDownLatch latch = new CountDownLatch(thread_num);
-            List<SchoolProvinceScoreCrawlTask> crawlTasks = crawlTaskDao.selectTask(25);
+            List<SchoolProvinceScoreCrawlTask> crawlTasks = crawlTaskDao.selectTask(thread_num);
             remain = crawlTasks.size();
             
             if (remain == 0) {
