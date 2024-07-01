@@ -12,6 +12,7 @@ import com.adc.utils.Http;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.ibatis.javassist.compiler.ast.Variable;
 import org.apache.ibatis.session.SqlSession;
 
 import java.util.ArrayList;
@@ -32,11 +33,11 @@ public class SchoolProvinceScoreCrawler extends AbstractCrawler {
     private String year = "2021";     //年份
     private String provinceId = "41"; //河南
     private int studentType = 1; //理科
+    private final int thread_num = 20;
     /**
      * 手动创建线程池
      */
-    private static  ThreadPoolExecutor executor = new ThreadPoolExecutor(20,25,100L,
-            TimeUnit.SECONDS,new LinkedBlockingQueue<>(),new ThreadPoolExecutor.CallerRunsPolicy());
+    private ExecutorService executor = Executors.newFixedThreadPool(thread_num);
 
     public static void main(String[] args) {
         new SchoolProvinceScoreCrawler().crawl();
@@ -44,7 +45,6 @@ public class SchoolProvinceScoreCrawler extends AbstractCrawler {
 
     @Override
     protected void doCrawl(SqlSession session) {
-
 //        initTask(session);
 
         final SchoolProvinceScoreCrawlTaskDao crawlTaskDao = session.getMapper(SchoolProvinceScoreCrawlTaskDao.class);
@@ -52,7 +52,7 @@ public class SchoolProvinceScoreCrawler extends AbstractCrawler {
         int executeTasks = 0;
         int remain;
         do {
-            List<Future> futures = new ArrayList<>();
+            CountDownLatch latch = new CountDownLatch(thread_num);
             List<SchoolProvinceScoreCrawlTask> crawlTasks = crawlTaskDao.selectTask(25);
             remain = crawlTasks.size();
             
@@ -60,23 +60,21 @@ public class SchoolProvinceScoreCrawler extends AbstractCrawler {
                 break;
             }
             for (SchoolProvinceScoreCrawlTask task : crawlTasks) {
-                Future future =  executor.submit(()-> {
+                executor.submit(()-> {
                     try {
                         doSpider(crawlTaskDao, scoreDao, task);
                     } catch (Exception e) {
                         e.printStackTrace();
+                    }finally {
+                        latch.countDown();
                     }
                 });
-                futures.add(future);
             }
-            for (Future f : futures) {
-                try {
-                    f.get();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } catch (ExecutionException e) {
-                    e.printStackTrace();
-                }
+
+            try {
+                latch.await();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
 //            doSpider(crawlTaskDao, scoreDao, crawlTasks);
             executeTasks += remain;
