@@ -8,33 +8,89 @@
         <foreach collection="schoolList" item="school" separator=",">
             (#{school.schoolId}, #{school.schoolName})
         </foreach>
-        on duplicate key update school_name=values(school_name)
+        on duplicate key update school_id=values(school_id)
     </insert>
 
     <select id="selectByStatus" resultType="com.adc.model.School">
-        select school_id as schoolId from school where status = 0
+        select school_id as schoolId from school where status = #{status}
     </select>
 
     <select id="selectAll" resultType="com.adc.model.School">
-        select school_id as schoolId from school
+        select
+            school_id as schoolId,
+            province_id as provinceId,
+            province_name as provinceName
+        from school
     </select>
 
     <update id="update" parameterType="com.adc.model.School">
-        update school set
-            school_name = #{schoolName},
-            province_id = #{provinceId},
-            province_name = #{provinceName},
-            city_id = #{cityId},
-            city_name = #{cityName},
-            `level` = #{level},
-            `type` = #{type},
-            nature = #{nature},
-            email = #{email},
-            phone = #{phone},
-            site = #{site},
-            address = #{address},
-            status = #{status}
-        where school_id = #{schoolId}
+        update school
+            <set>
+                school_id = #{schoolId},
+                <if test="schoolName != null and schoolName != '' ">
+                    school_name = #{schoolName},
+                </if>
+                <if test="schoolCode != null and schoolCode != '' ">
+                    school_code = #{schoolCode},
+                </if>
+                <if test="provinceId != null and provinceId != '' ">
+                    province_id = #{provinceId},
+                </if>
+                <if test="provinceName != null and provinceName != '' ">
+                    province_name = #{provinceName},
+                </if>
+                <if test="cityId != null and cityId != '' ">
+                    city_id = #{cityId},
+                </if>
+                <if test="cityName != null and cityName != '' ">
+                    city_name = #{cityName},
+                </if>
+                <if test="level != null and level != '' ">
+                    `level` = #{level},
+                </if>
+                <if test="type != null and type != '' ">
+                    `type` = #{type},
+                </if>
+                <if test="nature != null and nature != '' ">
+                    nature = #{nature},
+                </if>
+                <if test="email != null and email != '' ">
+                    email = #{email},
+                </if>
+                <if test="phone != null and phone != '' ">
+                    phone = #{phone},
+                </if>
+                <if test="site != null and site != '' ">
+                    site = #{site},
+                </if>
+                <if test="address != null and address != '' ">
+                    address = #{address},
+                </if>
+                <if test="status != null">
+                    status = #{status},
+                </if>
+                <if test="shortName != null and shortName != '' ">
+                    short_name = #{shortName},
+                </if>
+                <if test="oldName != null and oldName != '' ">
+                    old_name = #{oldName},
+                </if>
+                <if test="f985 != null and f985 != '' ">
+                    f985 = #{f985},
+                </if>
+                <if test="f211 != null and f211 != '' ">
+                    f211 = #{f211},
+                </if>
+                <if test="qj != null and qj != '' ">
+                    qj = #{qj},
+                </if>
+                <if test="dualClass != null and dualClass != '' ">
+                    dual_class = #{dualClass},
+                </if>
+            </set>
+        <where>
+            school_id = #{schoolId}
+        </where>
     </update>
 
 </mapper>

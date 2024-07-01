@@ -13,16 +13,17 @@ public class SchoolDetailCrawler extends AbstractCrawler {
 
     @Override
     protected void doCrawl(SqlSession session) {
-        String url = "https://static-data.eol.cn/www/school/%s/info.json";
+        // https://static-data.gaokao.cn/www/2.0/school/2628/info.json
+        String url = "https://static-data.gaokao.cn/www/2.0/school/%s/info.json";
 
         SchoolDao schoolDao = session.getMapper(SchoolDao.class);
 
-        List<School> schools = schoolDao.selectByStatus(0);
+        List<School> schools = schoolDao.selectByStatus(1);
         int num = 0;
         try {
             for (School school : schools) {
                 String response = Http.get(String.format(url, school.getSchoolId()));
-                JSONObject json = JSON.parseObject(response);
+                JSONObject json = JSON.parseObject(response).getJSONObject("data");
 
                 school.setSchoolName(json.getString("name"));
                 school.setProvinceId(json.getString("province_id"));
@@ -36,7 +37,9 @@ public class SchoolDetailCrawler extends AbstractCrawler {
                 school.setPhone(json.getString("phone"));
                 school.setSite(json.getString("site"));
                 school.setAddress(json.getString("address"));
-                school.setStatus(1);
+                school.setF211(json.getString("f211"));
+                school.setF985(json.getString("f985"));
+                school.setStatus(0);
 
                 schoolDao.update(school);
 

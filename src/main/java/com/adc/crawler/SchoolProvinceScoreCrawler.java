@@ -1,7 +1,11 @@
 package com.adc.crawler;
 
+import com.adc.dao.ProvinceDao;
+import com.adc.dao.SchoolDao;
 import com.adc.dao.SchoolProvinceScoreCrawlTaskDao;
 import com.adc.dao.SchoolProvinceScoreDao;
+import com.adc.model.Province;
+import com.adc.model.School;
 import com.adc.model.SchoolProvinceScore;
 import com.adc.model.SchoolProvinceScoreCrawlTask;
 import com.adc.utils.Http;
@@ -12,10 +16,27 @@ import org.apache.ibatis.session.SqlSession;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.concurrent.*;
 
 public class SchoolProvinceScoreCrawler extends AbstractCrawler {
 
-    private String url = "https://static-data.eol.cn/www/2.0/schoolprovinceindex/%s/%s/%s/%s/1.json";
+    //https://static-data.gaokao.cn/www/2.0/config/dicprovince/provinceScore.json
+    //https://static-data.gaokao.cn/www/2.0/schoolprovincescore/2401/2022/41.json
+    /*
+     * 学校ID
+     * 年
+     * 省份ID
+     */
+    private String url = "https://static-data.gaokao.cn/www/2.0/schoolprovincescore/%s/%s/%s.json";
+    private String year = "2021";     //年份
+    private String provinceId = "41"; //河南
+    private int studentType = 1; //理科
+    /**
+     * 手动创建线程池
+     */
+    private static  ThreadPoolExecutor executor = new ThreadPoolExecutor(20,25,100L,
+            TimeUnit.SECONDS,new LinkedBlockingQueue<>(),new ThreadPoolExecutor.CallerRunsPolicy());
 
     public static void main(String[] args) {
         new SchoolProvinceScoreCrawler().crawl();
@@ -23,80 +44,129 @@ public class SchoolProvinceScoreCrawler extends AbstractCrawler {
 
     @Override
     protected void doCrawl(SqlSession session) {
-        SchoolProvinceScoreCrawlTaskDao crawlTaskDao = session.getMapper(SchoolProvinceScoreCrawlTaskDao.class);
-        SchoolProvinceScoreDao scoreDao = session.getMapper(SchoolProvinceScoreDao.class);
 
+//        initTask(session);
+
+        final SchoolProvinceScoreCrawlTaskDao crawlTaskDao = session.getMapper(SchoolProvinceScoreCrawlTaskDao.class);
+        final SchoolProvinceScoreDao scoreDao = session.getMapper(SchoolProvinceScoreDao.class);
         int executeTasks = 0;
         int remain;
         do {
-            List<SchoolProvinceScoreCrawlTask> crawlTasks = crawlTaskDao.selectTask(20);
+            List<Future> futures = new ArrayList<>();
+            List<SchoolProvinceScoreCrawlTask> crawlTasks = crawlTaskDao.selectTask(25);
             remain = crawlTasks.size();
-
-            if (remain <= 0) {
+            
+            if (remain == 0) {
                 break;
             }
-
-            List<SchoolProvinceScore> scores = new ArrayList<>();
             for (SchoolProvinceScoreCrawlTask task : crawlTasks) {
-                List<SchoolProvinceScore> score = executeTask(task);
-                task.setStatus(1);
-                crawlTaskDao.update(task);
-
-                if (!score.isEmpty()) {
-                    scores.addAll(score);
+                Future future =  executor.submit(()-> {
+                    try {
+                        doSpider(crawlTaskDao, scoreDao, task);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                });
+                futures.add(future);
+            }
+            for (Future f : futures) {
+                try {
+                    f.get();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
                 }
             }
-
-            if (scores.size() > 0) {
-                scoreDao.insertList(scores);
-            }
+//            doSpider(crawlTaskDao, scoreDao, crawlTasks);
             executeTasks += remain;
             System.out.println("已执行Task：" + executeTasks);
         } while (remain > 0);
     }
+    private void doSpider(SchoolProvinceScoreCrawlTaskDao crawlTaskDao,
+                          SchoolProvinceScoreDao scoreDao,
+                          SchoolProvinceScoreCrawlTask task
+    ){
+
+        List<SchoolProvinceScore> scores = executeTask(task);
+        if(scores.size()>0){
+            scoreDao.insertList(scores);
+        }
+        task.setStatus(1);
+        crawlTaskDao.update(task);
+        System.out.println("调用成功：" + scores.size());
+    }
+
 
     private List<SchoolProvinceScore> executeTask(SchoolProvinceScoreCrawlTask task) {
 
-        String targetUrl = String.format(url, task.getYear(), task.getSchoolId(), task.getStudentProvinceId(), task.getStudentType());
+        String targetUrl = String.format(url,  task.getSchoolId(), task.getYear(), task.getStudentProvinceId());
         try {
+            List<SchoolProvinceScore> scores = new ArrayList<>();
             String response = Http.get(targetUrl);
             JSONObject json = JSON.parseObject(response);
-            JSONArray item = json.getJSONObject("data").getJSONArray("item");
-            if (item == null || item.size() == 0) {
-                return new ArrayList<>();
+            JSONObject dataObj = json.getJSONObject("data");
+            Set<String> keySet = dataObj.keySet();
+            for(String type: keySet){
+                JSONArray item = dataObj.getJSONObject(type).getJSONArray("item");
+                for (JSONObject data : item.toJavaList(JSONObject.class)) {
+                    SchoolProvinceScore score = new SchoolProvinceScore();
+                    score.setSchoolId(task.getSchoolId());
+                    score.setStudentProvinceId(task.getStudentProvinceId());
+                    score.setStudentType(data.getInteger("type"));
+                    score.setYear(task.getYear());
+
+                    if (!"--".equals(data.getString("max"))) {
+                        score.setMaxScore(data.getString("max"));
+                    }
+                    if (!"--".equals(data.getString("min"))) {
+                        score.setMinScore(data.getString("min"));
+                    }
+                    if (!"--".equals(data.getString("average"))) {
+                        score.setAvgScore(data.getString("average"));
+                    }
+                    if (!"--".equals(data.getString("proscore"))) {
+                        score.setProScore(data.getString("proscore"));
+                    }
+
+                    score.setMinPosition(data.getString("min_section"));
+                    score.setBatchName(data.getString("local_batch_name"));
+
+                    scores.add(score);
+                }
             }
 
-            List<SchoolProvinceScore> scores = new ArrayList<>();
-            for (JSONObject data : item.toJavaList(JSONObject.class)) {
-                SchoolProvinceScore score = new SchoolProvinceScore();
-                score.setSchoolId(task.getSchoolId());
-                score.setStudentProvinceId(task.getStudentProvinceId());
-                score.setStudentType(task.getStudentType());
-                score.setYear(task.getYear());
-
-                if (!"--".equals(data.getString("max"))) {
-                    score.setMaxScore(data.getDoubleValue("max"));
-                }
-                if (!"--".equals(data.getString("min"))) {
-                    score.setMinScore(data.getDoubleValue("min"));
-                }
-                if (!"--".equals(data.getString("average"))) {
-                    score.setAvgScore(data.getDoubleValue("average"));
-                }
-                if (!"--".equals(data.getString("proscore"))) {
-                    score.setProScore(data.getDoubleValue("proscore"));
-                }
-
-                score.setMinPosition(data.getIntValue("min_section"));
-                score.setBatchName(data.getString("local_batch_name"));
-
-                scores.add(score);
-            }
             return scores;
         } catch (Exception e) {
             System.out.println("抓取分数失败，可能无数据【请核实】：" + targetUrl);
+            System.out.println(e.getMessage());
             return new ArrayList<>();
         }
 
+    }
+
+    private void initTask(SqlSession session){
+        SchoolProvinceScoreCrawlTaskDao crawlTaskDao = session.getMapper(SchoolProvinceScoreCrawlTaskDao.class);
+        SchoolDao schoolDao = session.getMapper(SchoolDao.class);
+        ProvinceDao provinceDao = session.getMapper(ProvinceDao.class);
+        List<Province> provinces = provinceDao.selectAll();
+        List<School> schools = schoolDao.selectAll();
+        for(School school :schools){
+            for(Province province:provinces){
+                for(String year:new String[]{"2023","2022","2021","2020"}){
+                    List<SchoolProvinceScoreCrawlTask> tasks = new ArrayList<>();
+                    for(int stuType:new int[]{1,2}){
+                        SchoolProvinceScoreCrawlTask task = new SchoolProvinceScoreCrawlTask();
+                        task.setSchoolId(school.getSchoolId());
+                        task.setStudentProvinceId(province.getProvinceId());
+                        task.setYear(year);
+                        task.setStudentType(stuType);
+                        task.setStatus(0);
+                        tasks.add(task);
+                    }
+                    crawlTaskDao.insertList(tasks);
+                }
+            }
+        }
     }
 }

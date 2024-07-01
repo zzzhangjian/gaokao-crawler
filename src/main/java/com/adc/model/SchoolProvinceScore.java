@@ -8,10 +8,10 @@ public class SchoolProvinceScore {
     private String studentProvinceId;
     private Integer studentType;
     private String year;
-    private Double maxScore;
-    private Double minScore;
-    private Double avgScore;
-    private Double proScore;
-    private Integer minPosition;
+    private String maxScore;
+    private String minScore;
+    private String avgScore;
+    private String proScore;
+    private String minPosition;
     private String batchName;
 }

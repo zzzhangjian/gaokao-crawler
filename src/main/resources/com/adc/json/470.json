@@ -1,0 +1,3730 @@
+{
+  "code": "0000",
+  "message": "成功",
+  "data": {
+    "11": {
+      "3": [
+        {
+          "province_id": "11",
+          "school_id": "233",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "新疆农业大学"
+        },
+        {
+          "province_id": "11",
+          "school_id": "236",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "喀什大学"
+        },
+        {
+          "province_id": "11",
+          "school_id": "1731",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "桂林航天工业学院"
+        },
+        {
+          "province_id": "11",
+          "school_id": "1401",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "北京中医药大学东方学院"
+        },
+        {
+          "province_id": "11",
+          "school_id": "1578",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "石家庄铁道大学四方学院"
+        },
+        {
+          "province_id": "11",
+          "school_id": "1586",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "河北工程大学科信学院"
+        },
+        {
+          "province_id": "11",
+          "school_id": "1697",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "沈阳工学院"
+        },
+        {
+          "province_id": "11",
+          "school_id": "2298",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "天津商业大学宝德学院"
+        }
+      ]
+    },
+    "12": {
+      "3": [
+        {
+          "province_id": "12",
+          "school_id": "1167",
+          "min": 472,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批B段",
+          "name": "保定理工学院"
+        },
+        {
+          "province_id": "12",
+          "school_id": "1280",
+          "min": 472,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批B段",
+          "name": "昆明城市学院"
+        },
+        {
+          "province_id": "12",
+          "school_id": "2332",
+          "min": 472,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批B段",
+          "name": "运城职业技术大学"
+        },
+        {
+          "province_id": "12",
+          "school_id": "2181",
+          "min": 463,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批B段",
+          "name": "昆明文理学院"
+        }
+      ]
+    },
+    "13": {
+      "2073": [
+        {
+          "province_id": "13",
+          "school_id": "260",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "浙江万里学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "609",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "邢台学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "1975",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "武汉生物工程学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "514",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "国际通识课程",
+          "batch": "本科批",
+          "name": "贵州师范大学"
+        },
+        {
+          "province_id": "13",
+          "school_id": "688",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "河北水利电力学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "2372",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "广西中医药大学赛恩斯新医药学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "2436",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "赣南师范大学科技学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "13",
+          "school_id": "260",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "浙江万里学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "408",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "通化师范学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "609",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "邢台学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "595",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "河北师范大学"
+        },
+        {
+          "province_id": "13",
+          "school_id": "688",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "河北水利电力学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "2469",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "长沙理工大学城南学院"
+        },
+        {
+          "province_id": "13",
+          "school_id": "3271",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "鄂尔多斯应用技术学院"
+        }
+      ]
+    },
+    "14": {
+      "1": [
+        {
+          "province_id": "14",
+          "school_id": "273",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "四川轻化工大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "435",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "湖北汽车工业学院"
+        },
+        {
+          "province_id": "14",
+          "school_id": "470",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "西藏民族大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "146",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "南京工程学院"
+        },
+        {
+          "province_id": "14",
+          "school_id": "315",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "上海应用技术大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "393",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "东北电力大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "600",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "承德医学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "14",
+          "school_id": "368",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "渭南师范学院"
+        },
+        {
+          "province_id": "14",
+          "school_id": "220",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批B段",
+          "name": "大连交通大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "606",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "河北地质大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "387",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "长春师范大学"
+        },
+        {
+          "province_id": "14",
+          "school_id": "711",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "哈尔滨金融学院"
+        },
+        {
+          "province_id": "14",
+          "school_id": "1029",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批B段",
+          "name": "长沙学院"
+        },
+        {
+          "province_id": "14",
+          "school_id": "1092",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "上海电机学院"
+        }
+      ]
+    },
+    "15": {
+      "1": [
+        {
+          "province_id": "15",
+          "school_id": "89",
+          "min": 471,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批",
+          "name": "天津中医药大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "267",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "中国民用航空飞行学院"
+        },
+        {
+          "province_id": "15",
+          "school_id": "488",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "兰州交通大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "289",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "广州中医药大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "511",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "海南师范大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "590",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "北京印刷学院"
+        },
+        {
+          "province_id": "15",
+          "school_id": "1042",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科提前批B段",
+          "name": "赤峰学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "15",
+          "school_id": "412",
+          "min": 471,
+          "type": "文科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批",
+          "name": "吉林财经大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "444",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "哈尔滨商业大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "590",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批B段",
+          "name": "北京印刷学院"
+        },
+        {
+          "province_id": "15",
+          "school_id": "149",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "南京艺术学院"
+        },
+        {
+          "province_id": "15",
+          "school_id": "193",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "四川外国语大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "519",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "内蒙古师范大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "599",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "燕山大学"
+        }
+      ],
+      "32": [
+        {
+          "province_id": "15",
+          "school_id": "137",
+          "min": 488,
+          "type": "蒙授文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "东北农业大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "602",
+          "min": 481,
+          "type": "蒙授文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "河北工程大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "1629",
+          "min": 475,
+          "type": "蒙授文科",
+          "zslx": "女生",
+          "batch": "专科提前批",
+          "name": "内蒙古警察职业学院"
+        },
+        {
+          "province_id": "15",
+          "school_id": "32",
+          "min": 469,
+          "type": "蒙授文科",
+          "zslx": "国家专项计划",
+          "batch": "本科提前批B段",
+          "name": "内蒙古大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "525",
+          "min": 468,
+          "type": "蒙授文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "内蒙古医科大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "529",
+          "min": 468,
+          "type": "蒙授文科",
+          "zslx": "普通类",
+          "batch": "本科提前批B段",
+          "name": "内蒙古财经大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "227",
+          "min": 467,
+          "type": "蒙授文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "沈阳工业大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "519",
+          "min": 465,
+          "type": "蒙授文科",
+          "zslx": "民族班",
+          "batch": "本科一批",
+          "name": "内蒙古师范大学"
+        }
+      ],
+      "33": [
+        {
+          "province_id": "15",
+          "school_id": "136",
+          "min": 498,
+          "type": "蒙授理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "上海外国语大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "45",
+          "min": 490,
+          "type": "蒙授理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "中央民族大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "379",
+          "min": 455,
+          "type": "蒙授理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "长春理工大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "32",
+          "min": 444,
+          "type": "蒙授理科",
+          "zslx": "少数民族预科班",
+          "batch": "本科一批",
+          "name": "内蒙古大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "227",
+          "min": 441,
+          "type": "蒙授理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "沈阳工业大学"
+        },
+        {
+          "province_id": "15",
+          "school_id": "446",
+          "min": 440,
+          "type": "蒙授理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "东北石油大学"
+        }
+      ]
+    },
+    "21": {
+      "2073": [
+        {
+          "province_id": "21",
+          "school_id": "244",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "嘉兴大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "299",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "岭南师范学院"
+        },
+        {
+          "province_id": "21",
+          "school_id": "528",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "山东建筑大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "273",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "四川轻化工大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "392",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "湖南农业大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "1010",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "上海商学院"
+        },
+        {
+          "province_id": "21",
+          "school_id": "1033",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "右江民族医学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "21",
+          "school_id": "450",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "黑龙江科技大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "1264",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "菏泽学院"
+        },
+        {
+          "province_id": "21",
+          "school_id": "1710",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "兰州石化职业技术大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "415",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "湖南文理学院"
+        },
+        {
+          "province_id": "21",
+          "school_id": "627",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "衡水学院"
+        },
+        {
+          "province_id": "21",
+          "school_id": "786",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "辽宁工程技术大学"
+        },
+        {
+          "province_id": "21",
+          "school_id": "1062",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "哈尔滨师范大学"
+        }
+      ]
+    },
+    "22": {
+      "1": [
+        {
+          "province_id": "22",
+          "school_id": "185",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "江西中医药大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "434",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "武汉工程大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "934",
+          "min": 471,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批A段",
+          "name": "西南大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "128",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "武汉理工大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "507",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "青岛科技大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "270",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "成都信息工程大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "1073",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "重庆工商大学"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "22",
+          "school_id": "209",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "沈阳航空航天大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "246",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "浙江科技大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "342",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "昆明理工大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "2434",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "南昌医学院"
+        },
+        {
+          "province_id": "22",
+          "school_id": "528",
+          "min": 468,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "山东建筑大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "919",
+          "min": 468,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "山西中医药大学"
+        },
+        {
+          "province_id": "22",
+          "school_id": "511",
+          "min": 467,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批A段",
+          "name": "海南师范大学"
+        }
+      ]
+    },
+    "23": {
+      "1": [
+        {
+          "province_id": "23",
+          "school_id": "169",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "南京林业大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "277",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "中北大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "622",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "国家专项计划本科批",
+          "name": "山东师范大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "227",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "沈阳工业大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "558",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "中国传媒大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "595",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "河北师范大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "507",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "青岛科技大学"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "23",
+          "school_id": "103",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "国家专项计划本科批",
+          "name": "福州大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "275",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "山西财经大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "428",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "长江大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "419",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "东北林业大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "590",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "北京印刷学院"
+        },
+        {
+          "province_id": "23",
+          "school_id": "286",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "广东工业大学"
+        },
+        {
+          "province_id": "23",
+          "school_id": "935",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批A段",
+          "name": "贵州大学"
+        }
+      ]
+    },
+    "31": {
+      "3": [
+        {
+          "province_id": "31",
+          "school_id": "193",
+          "min": 471,
+          "type": "综合",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "四川外国语大学"
+        },
+        {
+          "province_id": "31",
+          "school_id": "357",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "陕西科技大学"
+        },
+        {
+          "province_id": "31",
+          "school_id": "531",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "广西师范大学"
+        },
+        {
+          "province_id": "31",
+          "school_id": "82",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "天津科技大学"
+        },
+        {
+          "province_id": "31",
+          "school_id": "308",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "上海工程技术大学"
+        },
+        {
+          "province_id": "31",
+          "school_id": "495",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "西北师范大学"
+        },
+        {
+          "province_id": "31",
+          "school_id": "3194",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "上海健康医学院"
+        }
+      ]
+    },
+    "32": {
+      "2073": [
+        {
+          "province_id": "32",
+          "school_id": "1308",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "广州软件学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "1388",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "苏州市常熟市",
+          "batch": "专科批",
+          "name": "苏州卫生职业技术学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "1586",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "河北工程大学科信学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "1182",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "常熟理工学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "2221",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "连云港市赣榆区",
+          "batch": "专科批",
+          "name": "江苏卫生健康职业学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "2550",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "苏州科技大学天平学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "2555",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "南通大学杏林学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "32",
+          "school_id": "746",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "石家庄邮电职业技术学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "1405",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "徐州市丰县",
+          "batch": "专科批",
+          "name": "江苏医药职业学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "2201",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "镇江市高等专科学校"
+        },
+        {
+          "province_id": "32",
+          "school_id": "1191",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "分段培养",
+          "batch": "专科批",
+          "name": "无锡科技职业学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "1591",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "分段培养",
+          "batch": "专科批",
+          "name": "江苏经贸职业技术学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "2212",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "分段培养",
+          "batch": "专科批",
+          "name": "南京科技职业学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "2221",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "苏州市张家港市",
+          "batch": "专科批",
+          "name": "江苏卫生健康职业学院"
+        },
+        {
+          "province_id": "32",
+          "school_id": "3273",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "连云港市灌云县",
+          "batch": "专科批",
+          "name": "江苏护理职业学院"
+        }
+      ]
+    },
+    "33": {
+      "3": [
+        {
+          "province_id": "33",
+          "school_id": "635",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "平行录取二段",
+          "name": "广州民航职业技术学院"
+        },
+        {
+          "province_id": "33",
+          "school_id": "1567",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "平行录取二段",
+          "name": "安顺职业技术学院"
+        },
+        {
+          "province_id": "33",
+          "school_id": "3485",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "平行录取二段",
+          "name": "海南卫生健康职业学院"
+        },
+        {
+          "province_id": "33",
+          "school_id": "835",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "平行录取二段",
+          "name": "天津医学高等专科学校"
+        },
+        {
+          "province_id": "33",
+          "school_id": "1341",
+          "min": 469,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "平行录取二段",
+          "name": "浙江商业职业技术学院"
+        },
+        {
+          "province_id": "33",
+          "school_id": "3371",
+          "min": 469,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "平行录取二段",
+          "name": "郑州卫生健康职业学院"
+        },
+        {
+          "province_id": "33",
+          "school_id": "685",
+          "min": 468,
+          "type": "综合",
+          "zslx": "高本贯通",
+          "batch": "平行录取二段",
+          "name": "上海工商职业技术学院"
+        }
+      ]
+    },
+    "34": {
+      "1": [
+        {
+          "province_id": "34",
+          "school_id": "81",
+          "min": 471,
+          "type": "理科",
+          "zslx": "航海类",
+          "batch": "本科提前批",
+          "name": "天津理工大学"
+        },
+        {
+          "province_id": "34",
+          "school_id": "479",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "郑州航空工业管理学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "2571",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "遵义医科大学医学与科技学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "598",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "河北农业大学"
+        },
+        {
+          "province_id": "34",
+          "school_id": "769",
+          "min": 470,
+          "type": "理科",
+          "zslx": "智能制造工程等4个专业",
+          "batch": "本科二批",
+          "name": "成都工业学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "1807",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "专科提前批",
+          "name": "芜湖职业技术学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "1990",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长沙师范学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "34",
+          "school_id": "1841",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科提前批",
+          "name": "安徽林业职业技术学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "2382",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "浙江师范大学行知学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "2396",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "浙江财经大学东方学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "1236",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "贵州工程应用技术学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "1401",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "北京中医药大学东方学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "1564",
+          "min": 470,
+          "type": "文科",
+          "zslx": "中外合作办学",
+          "batch": "本科二批",
+          "name": "贵州商学院"
+        },
+        {
+          "province_id": "34",
+          "school_id": "2498",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "成都锦城学院"
+        }
+      ]
+    },
+    "35": {
+      "2073": [
+        {
+          "province_id": "35",
+          "school_id": "479",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "郑州航空工业管理学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1036",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "伊犁师范大学"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1922",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "郑州工程技术学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "394",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "长春工程学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "650",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "保定学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1071",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "贵阳学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1858",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "面向南平",
+          "batch": "本科批",
+          "name": "武夷学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "35",
+          "school_id": "202",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "沈阳医学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "2435",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "江西财经大学现代经济管理学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "2479",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "衡阳师范学院南岳学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1401",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "北京中医药大学东方学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1475",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "重庆财经学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "1858",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "闽台合作",
+          "batch": "本科批",
+          "name": "武夷学院"
+        },
+        {
+          "province_id": "35",
+          "school_id": "2410",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "蚌埠工商学院"
+        }
+      ]
+    },
+    "36": {
+      "1": [
+        {
+          "province_id": "36",
+          "school_id": "185",
+          "min": 471,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科二批",
+          "name": "江西中医药大学"
+        },
+        {
+          "province_id": "36",
+          "school_id": "765",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "黑龙江工业学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "2135",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "齐鲁医药学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "204",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "鞍山师范学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "410",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "白城师范学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "1012",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "大庆师范学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "3064",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "山西能源学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "36",
+          "school_id": "706",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "上海中侨职业技术大学"
+        },
+        {
+          "province_id": "36",
+          "school_id": "2887",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "江西服装学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "3464",
+          "min": 472,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "江西软件职业技术大学"
+        },
+        {
+          "province_id": "36",
+          "school_id": "2048",
+          "min": 429,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "广东轻工职业技术大学"
+        },
+        {
+          "province_id": "36",
+          "school_id": "386",
+          "min": 428,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "吉首大学"
+        },
+        {
+          "province_id": "36",
+          "school_id": "1141",
+          "min": 428,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "南京铁道职业技术学院"
+        },
+        {
+          "province_id": "36",
+          "school_id": "1770",
+          "min": 428,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "金华职业技术大学"
+        }
+      ]
+    },
+    "37": {
+      "3": [
+        {
+          "province_id": "37",
+          "school_id": "2131",
+          "min": 471,
+          "type": "综合",
+          "zslx": "高职3+2贯通培养",
+          "batch": "普通类二段",
+          "name": "菏泽家政职业学院"
+        },
+        {
+          "province_id": "37",
+          "school_id": "2509",
+          "min": 471,
+          "type": "综合",
+          "zslx": "高职3+2贯通培养",
+          "batch": "普通类二段",
+          "name": "临沂职业学院"
+        },
+        {
+          "province_id": "37",
+          "school_id": "3005",
+          "min": 471,
+          "type": "综合",
+          "zslx": "中外合作办学",
+          "batch": "普通类一段",
+          "name": "山东农业工程学院"
+        },
+        {
+          "province_id": "37",
+          "school_id": "500",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "普通类一段",
+          "name": "兰州财经大学"
+        },
+        {
+          "province_id": "37",
+          "school_id": "555",
+          "min": 470,
+          "type": "综合",
+          "zslx": "中外合作办学",
+          "batch": "普通类一段",
+          "name": "鲁东大学"
+        },
+        {
+          "province_id": "37",
+          "school_id": "2114",
+          "min": 470,
+          "type": "综合",
+          "zslx": "高职3+2贯通培养",
+          "batch": "普通类二段",
+          "name": "山东信息职业技术学院"
+        },
+        {
+          "province_id": "37",
+          "school_id": "2120",
+          "min": 470,
+          "type": "综合",
+          "zslx": "高职3+2贯通培养",
+          "batch": "普通类二段",
+          "name": "济南职业学院"
+        }
+      ]
+    },
+    "41": {
+      "1": [
+        {
+          "province_id": "41",
+          "school_id": "878",
+          "min": 471,
+          "type": "理科",
+          "zslx": "软件类",
+          "batch": "本科二批",
+          "name": "安阳师范学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2471",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "湖南工业大学科技学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2550",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "苏州科技大学天平学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "410",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "白城师范学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "479",
+          "min": 470,
+          "type": "理科",
+          "zslx": "南乌拉尔学院",
+          "batch": "本科二批",
+          "name": "郑州航空工业管理学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "1720",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "兰州资源环境职业技术大学"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2520",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "保山学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "41",
+          "school_id": "1435",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "无锡职业技术学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2313",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长春光华学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2314",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长春财经学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "1419",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长春工业大学人文信息学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "1913",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "福州理工学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2315",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长春大学旅游学院"
+        },
+        {
+          "province_id": "41",
+          "school_id": "2530",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "哈尔滨远东理工学院"
+        }
+      ]
+    },
+    "42": {
+      "2073": [
+        {
+          "province_id": "42",
+          "school_id": "2066",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "新疆工程学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "2489",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "护理类",
+          "batch": "本科批",
+          "name": "新疆科技学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "2631",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "新疆政法学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "443",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "地方专项计划",
+          "batch": "本科批",
+          "name": "湖北工程学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "1472",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "重庆对外经贸学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "1553",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "常州大学怀德学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "2433",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "南昌航空大学科技学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "42",
+          "school_id": "1472",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "重庆对外经贸学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "2372",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "广西中医药大学赛恩斯新医药学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "2489",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "新疆科技学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "628",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "石家庄学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "1131",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "电子科技大学成都学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "3423",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "郑州西亚斯学院"
+        },
+        {
+          "province_id": "42",
+          "school_id": "1972",
+          "min": 469,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "长江大学文理学院"
+        }
+      ]
+    },
+    "43": {
+      "2073": [
+        {
+          "province_id": "43",
+          "school_id": "372",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "青海民族大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "2490",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "新疆第二医学院"
+        },
+        {
+          "province_id": "43",
+          "school_id": "3272",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "滇西应用技术大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "412",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "中外合作办学或国际项目",
+          "batch": "本科批",
+          "name": "吉林财经大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "444",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "哈尔滨商业大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "653",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "防灾科技学院"
+        },
+        {
+          "province_id": "43",
+          "school_id": "711",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "哈尔滨金融学院"
+        },
+        {
+          "province_id": "43",
+          "school_id": "1134",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "太原工业学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "43",
+          "school_id": "235",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "新疆师范大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "480",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "西北民族大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "545",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "少数民族",
+          "batch": "本科批",
+          "name": "北方民族大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "337",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "皖西学院"
+        },
+        {
+          "province_id": "43",
+          "school_id": "410",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "白城师范学院"
+        },
+        {
+          "province_id": "43",
+          "school_id": "422",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "佳木斯大学"
+        },
+        {
+          "province_id": "43",
+          "school_id": "424",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "齐齐哈尔大学"
+        }
+      ]
+    },
+    "44": {
+      "2073": [
+        {
+          "province_id": "44",
+          "school_id": "298",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "韶关学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "646",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "深圳职业技术大学"
+        },
+        {
+          "province_id": "44",
+          "school_id": "1329",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "三亚学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "1620",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "吉林建筑科技学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "390",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "吉林师范大学"
+        },
+        {
+          "province_id": "44",
+          "school_id": "643",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "广东东软学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "966",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "广东白云学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "1762",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "南宁学院"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "44",
+          "school_id": "1215",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "上海师范大学天华学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "1329",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "三亚学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "3325",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "农村卫生专项",
+          "batch": "专科提前批",
+          "name": "广东江门中医药职业学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "500",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "联合培养",
+          "batch": "本科批",
+          "name": "兰州财经大学"
+        },
+        {
+          "province_id": "44",
+          "school_id": "985",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "深圳信息职业技术学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "2402",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "浙江越秀外国语学院"
+        },
+        {
+          "province_id": "44",
+          "school_id": "2843",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "南昌工学院"
+        }
+      ]
+    },
+    "45": {
+      "1": [
+        {
+          "province_id": "45",
+          "school_id": "71",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "济南大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "288",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "广东海洋大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "362",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "大理大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "167",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "江苏师范大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "460",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "河南科技大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "439",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "湖北师范大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "611",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科提前批",
+          "name": "中央司法警官学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "45",
+          "school_id": "449",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "黑龙江工程学院"
+        },
+        {
+          "province_id": "45",
+          "school_id": "532",
+          "min": 471,
+          "type": "文科",
+          "zslx": "北海校区",
+          "batch": "本科二批",
+          "name": "桂林电子科技大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "1442",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "南京师范大学泰州学院"
+        },
+        {
+          "province_id": "45",
+          "school_id": "454",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "齐齐哈尔医学院"
+        },
+        {
+          "province_id": "45",
+          "school_id": "1920",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "河南财政金融学院"
+        },
+        {
+          "province_id": "45",
+          "school_id": "427",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "黑龙江八一农垦大学"
+        },
+        {
+          "province_id": "45",
+          "school_id": "921",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "晋中学院"
+        }
+      ]
+    },
+    "46": {
+      "3": [
+        {
+          "province_id": "46",
+          "school_id": "793",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "四川建筑职业技术学院"
+        },
+        {
+          "province_id": "46",
+          "school_id": "812",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "黄冈职业技术学院"
+        },
+        {
+          "province_id": "46",
+          "school_id": "1561",
+          "min": 471,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "黔南民族医学高等专科学校"
+        },
+        {
+          "province_id": "46",
+          "school_id": "1330",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "江苏食品药品职业技术学院"
+        },
+        {
+          "province_id": "46",
+          "school_id": "1802",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "安徽中医药高等专科学校"
+        },
+        {
+          "province_id": "46",
+          "school_id": "3237",
+          "min": 470,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "广东茂名健康职业学院"
+        },
+        {
+          "province_id": "46",
+          "school_id": "2934",
+          "min": 469,
+          "type": "综合",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "上海民航职业技术学院"
+        }
+      ]
+    },
+    "50": {
+      "2073": [
+        {
+          "province_id": "50",
+          "school_id": "199",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "石河子大学"
+        },
+        {
+          "province_id": "50",
+          "school_id": "361",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "西安工业大学"
+        },
+        {
+          "province_id": "50",
+          "school_id": "544",
+          "min": 471,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "宁夏大学"
+        },
+        {
+          "province_id": "50",
+          "school_id": "91",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "天津城建大学"
+        },
+        {
+          "province_id": "50",
+          "school_id": "608",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "唐山学院"
+        },
+        {
+          "province_id": "50",
+          "school_id": "653",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "防灾科技学院"
+        },
+        {
+          "province_id": "50",
+          "school_id": "866",
+          "min": 470,
+          "type": "物理类",
+          "zslx": "中外合作办学",
+          "batch": "本科批",
+          "name": "北京体育大学"
+        }
+      ],
+      "2074": [
+        {
+          "province_id": "50",
+          "school_id": "345",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "云南民族大学"
+        },
+        {
+          "province_id": "50",
+          "school_id": "1266",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "铜仁学院"
+        },
+        {
+          "province_id": "50",
+          "school_id": "1277",
+          "min": 471,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "昆明医科大学海源学院"
+        },
+        {
+          "province_id": "50",
+          "school_id": "575",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "预科班",
+          "batch": "本科批",
+          "name": "北京联合大学"
+        },
+        {
+          "province_id": "50",
+          "school_id": "650",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "保定学院"
+        },
+        {
+          "province_id": "50",
+          "school_id": "1014",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "吉林农业科技学院"
+        },
+        {
+          "province_id": "50",
+          "school_id": "1638",
+          "min": 470,
+          "type": "历史类",
+          "zslx": "普通类",
+          "batch": "本科批",
+          "name": "吕梁学院"
+        }
+      ]
+    },
+    "51": {
+      "1": [
+        {
+          "province_id": "51",
+          "school_id": "1046",
+          "min": 471,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科二批",
+          "name": "广西财经学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "1720",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "兰州资源环境职业技术大学"
+        },
+        {
+          "province_id": "51",
+          "school_id": "1732",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "桂林旅游学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "387",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长春师范大学"
+        },
+        {
+          "province_id": "51",
+          "school_id": "1047",
+          "min": 470,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科二批",
+          "name": "吉林医药学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "1519",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "亳州学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "1975",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "武汉生物工程学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "51",
+          "school_id": "1559",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "兰州博文科技学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "2259",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "西安信息职业大学"
+        },
+        {
+          "province_id": "51",
+          "school_id": "2615",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "银川科技学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "966",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "广东白云学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "2144",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "山东外国语职业技术大学"
+        },
+        {
+          "province_id": "51",
+          "school_id": "2328",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "山西晋中理工学院"
+        },
+        {
+          "province_id": "51",
+          "school_id": "2562",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "西安明德理工学院"
+        }
+      ]
+    },
+    "52": {
+      "1": [
+        {
+          "province_id": "52",
+          "school_id": "89",
+          "min": 471,
+          "type": "理科",
+          "zslx": "护理学类",
+          "batch": "本科一批",
+          "name": "天津中医药大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "166",
+          "min": 471,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批",
+          "name": "南京信息工程大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "572",
+          "min": 471,
+          "type": "理科",
+          "zslx": "少数民族预科班",
+          "batch": "本科一批",
+          "name": "北京建筑大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "208",
+          "min": 470,
+          "type": "理科",
+          "zslx": "少数民族",
+          "batch": "本科一批",
+          "name": "大连民族大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "423",
+          "min": 470,
+          "type": "理科",
+          "zslx": "少数民族预科班",
+          "batch": "本科一批",
+          "name": "中南民族大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "516",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "国家专项计划本科批",
+          "name": "贵州民族大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "2996",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "地方专项计划本科批",
+          "name": "贵州理工学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "52",
+          "school_id": "800",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "四川交通职业技术学院"
+        },
+        {
+          "province_id": "52",
+          "school_id": "835",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "天津医学高等专科学校"
+        },
+        {
+          "province_id": "52",
+          "school_id": "1181",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "苏州市职业大学"
+        },
+        {
+          "province_id": "52",
+          "school_id": "1002",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "广东科学技术职业学院"
+        },
+        {
+          "province_id": "52",
+          "school_id": "1130",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "陕西警察学院"
+        },
+        {
+          "province_id": "52",
+          "school_id": "1774",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "浙江工贸职业技术学院"
+        },
+        {
+          "province_id": "52",
+          "school_id": "1787",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "宁波卫生职业技术学院"
+        }
+      ]
+    },
+    "53": {
+      "1": [
+        {
+          "province_id": "53",
+          "school_id": "555",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "鲁东大学"
+        },
+        {
+          "province_id": "53",
+          "school_id": "1084",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "宜宾学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "2463",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "湖南第一师范学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "291",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "东莞理工学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "531",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "广西师范大学"
+        },
+        {
+          "province_id": "53",
+          "school_id": "542",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "山东农业大学"
+        },
+        {
+          "province_id": "53",
+          "school_id": "1578",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "石家庄铁道大学四方学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "53",
+          "school_id": "1495",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "重庆三峡医药高等专科学校"
+        },
+        {
+          "province_id": "53",
+          "school_id": "2163",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "专科批",
+          "name": "丽江师范学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "2289",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "银川能源学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "255",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "绍兴文理学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "366",
+          "min": 470,
+          "type": "文科",
+          "zslx": "中外合作办学",
+          "batch": "本科二批及预科",
+          "name": "咸阳师范学院"
+        },
+        {
+          "province_id": "53",
+          "school_id": "444",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "哈尔滨商业大学"
+        },
+        {
+          "province_id": "53",
+          "school_id": "2843",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批及预科",
+          "name": "南昌工学院"
+        }
+      ]
+    },
+    "54": {
+      "1": [],
+      "2": [
+        {
+          "province_id": "54",
+          "school_id": "939",
+          "min": 492,
+          "type": "文科",
+          "zslx": "指挥类",
+          "batch": "本科提前批",
+          "name": "中国人民解放军国防科技大学"
+        }
+      ]
+    },
+    "61": {
+      "1": [
+        {
+          "province_id": "61",
+          "school_id": "561",
+          "min": 473,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批",
+          "name": "北方工业大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "35",
+          "min": 472,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "云南大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "199",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "石河子大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "156",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "常州大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "610",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "中国人民警察大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "935",
+          "min": 469,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批",
+          "name": "贵州大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "84",
+          "min": 468,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "天津财经大学"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "61",
+          "school_id": "276",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "川北医学院"
+        },
+        {
+          "province_id": "61",
+          "school_id": "484",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "洛阳师范学院"
+        },
+        {
+          "province_id": "61",
+          "school_id": "500",
+          "min": 471,
+          "type": "文科",
+          "zslx": "本硕中英实验班、121中俄实验班",
+          "batch": "本科二批",
+          "name": "兰州财经大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "377",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "长春大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "424",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "齐齐哈尔大学"
+        },
+        {
+          "province_id": "61",
+          "school_id": "449",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "黑龙江工程学院"
+        },
+        {
+          "province_id": "61",
+          "school_id": "3005",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "山东农业工程学院"
+        }
+      ]
+    },
+    "62": {
+      "1": [
+        {
+          "province_id": "62",
+          "school_id": "103",
+          "min": 471,
+          "type": "理科",
+          "zslx": "少数民族预科班",
+          "batch": "本科一批I段",
+          "name": "福州大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "600",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "承德医学院"
+        },
+        {
+          "province_id": "62",
+          "school_id": "830",
+          "min": 471,
+          "type": "理科",
+          "zslx": "民族班",
+          "batch": "本科一批I段",
+          "name": "中国地质大学（北京）"
+        },
+        {
+          "province_id": "62",
+          "school_id": "82",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批I段",
+          "name": "天津科技大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "205",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批I段",
+          "name": "辽宁中医药大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "393",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批I段",
+          "name": "东北电力大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "430",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批I段",
+          "name": "江汉大学"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "62",
+          "school_id": "273",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "四川轻化工大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "409",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "湖南科技学院"
+        },
+        {
+          "province_id": "62",
+          "school_id": "1084",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "宜宾学院"
+        },
+        {
+          "province_id": "62",
+          "school_id": "217",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "沈阳理工大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "429",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "哈尔滨医科大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "495",
+          "min": 470,
+          "type": "文科",
+          "zslx": "民族班（聚居少数民族）",
+          "batch": "本科一批I段",
+          "name": "西北师范大学"
+        },
+        {
+          "province_id": "62",
+          "school_id": "586",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批K段",
+          "name": "北京物资学院"
+        }
+      ]
+    },
+    "63": {
+      "1": [
+        {
+          "province_id": "63",
+          "school_id": "201",
+          "min": 474,
+          "type": "理科",
+          "zslx": "需面试（女生）",
+          "batch": "本科提前批C段",
+          "name": "中国刑事警察学院"
+        },
+        {
+          "province_id": "63",
+          "school_id": "1219",
+          "min": 474,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "山东大学（威海）"
+        },
+        {
+          "province_id": "63",
+          "school_id": "317",
+          "min": 473,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "上海电力大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "576",
+          "min": 470,
+          "type": "理科",
+          "zslx": "需面试（男生）",
+          "batch": "本科提前批C段",
+          "name": "中国人民公安大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "134",
+          "min": 468,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "东北大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "558",
+          "min": 468,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "中国传媒大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "784",
+          "min": 467,
+          "type": "理科",
+          "zslx": "藏文班",
+          "batch": "本科一段",
+          "name": "四川民族学院"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "63",
+          "school_id": "367",
+          "min": 472,
+          "type": "文科",
+          "zslx": "藏文预科班",
+          "batch": "本科一段",
+          "name": "青海大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "372",
+          "min": 472,
+          "type": "文科",
+          "zslx": "藏文预科班",
+          "batch": "本科一段",
+          "name": "青海民族大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "3595",
+          "min": 471,
+          "type": "文科",
+          "zslx": "藏文班",
+          "batch": "专科批",
+          "name": "甘孜职业学院"
+        },
+        {
+          "province_id": "63",
+          "school_id": "960",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "南方医科大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "164",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "南京财经大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "465",
+          "min": 469,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "华侨大学"
+        },
+        {
+          "province_id": "63",
+          "school_id": "265",
+          "min": 468,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一段",
+          "name": "四川师范大学"
+        }
+      ]
+    },
+    "64": {
+      "1": [
+        {
+          "province_id": "64",
+          "school_id": "201",
+          "min": 474,
+          "type": "理科",
+          "zslx": "二本线",
+          "batch": "本科提前批",
+          "name": "中国刑事警察学院"
+        },
+        {
+          "province_id": "64",
+          "school_id": "599",
+          "min": 474,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "燕山大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "414",
+          "min": 473,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "中南财经政法大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "33",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "大连海事大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "1007",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "武汉科技大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "97",
+          "min": 468,
+          "type": "理科",
+          "zslx": "民族班",
+          "batch": "本科一批",
+          "name": "兰州大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "1006",
+          "min": 468,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "中国矿业大学（北京）"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "64",
+          "school_id": "500",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "兰州财经大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "536",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "广西科技大学"
+        },
+        {
+          "province_id": "64",
+          "school_id": "1089",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "曲靖师范学院"
+        },
+        {
+          "province_id": "64",
+          "school_id": "146",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "南京工程学院"
+        },
+        {
+          "province_id": "64",
+          "school_id": "867",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "南昌工程学院"
+        },
+        {
+          "province_id": "64",
+          "school_id": "891",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "新余学院"
+        },
+        {
+          "province_id": "64",
+          "school_id": "1264",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "菏泽学院"
+        }
+      ]
+    },
+    "65": {
+      "1": [
+        {
+          "province_id": "65",
+          "school_id": "151",
+          "min": 472,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "南京审计大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "45",
+          "min": 471,
+          "type": "理科",
+          "zslx": "中外合作办学",
+          "batch": "本科一批",
+          "name": "中央民族大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "561",
+          "min": 471,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "北方工业大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "113",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "南京农业大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "311",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "上海师范大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "349",
+          "min": 470,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "西安理工大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "142",
+          "min": 469,
+          "type": "理科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "东北师范大学"
+        }
+      ],
+      "2": [
+        {
+          "province_id": "65",
+          "school_id": "351",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "西安建筑科技大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "402",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科二批",
+          "name": "湖南中医药大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "1216",
+          "min": 471,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "宁波诺丁汉大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "74",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "新疆大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "85",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "天津商业大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "176",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "东华理工大学"
+        },
+        {
+          "province_id": "65",
+          "school_id": "358",
+          "min": 470,
+          "type": "文科",
+          "zslx": "普通类",
+          "batch": "本科一批",
+          "name": "西安工程大学"
+        }
+      ]
+    }
+  },
+  "md5": "f8fcb14d83c2e1aec88ef5117b166c37"
+}

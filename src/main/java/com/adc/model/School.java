@@ -6,6 +6,7 @@ import lombok.Data;
 public class School {
     private String schoolId;
     private String schoolName;
+    private String schoolCode;
     private String provinceId;
     private String provinceName;
     private String cityId;
@@ -19,4 +20,12 @@ public class School {
     private String address;
     private String intro;
     private Integer status;
+
+    private String shortName;
+    private String oldName;
+    private String f985;
+    private String f211;
+    private String qj;
+    private String dualClass;
+
 }

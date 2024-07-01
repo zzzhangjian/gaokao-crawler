@@ -1,0 +1,333 @@
+{
+  "code": "0000",
+  "message": "成功",
+  "data": {
+    "province": {
+      "A": [
+        {
+          "province_id": 34,
+          "province_name": "安徽"
+        }
+      ],
+      "B": [
+        {
+          "province_id": 11,
+          "province_name": "北京"
+        }
+      ],
+      "C": [
+        {
+          "province_id": 50,
+          "province_name": "重庆"
+        }
+      ],
+      "F": [
+        {
+          "province_id": 35,
+          "province_name": "福建"
+        }
+      ],
+      "G": [
+        {
+          "province_id": 44,
+          "province_name": "广东"
+        },
+        {
+          "province_id": 45,
+          "province_name": "广西"
+        },
+        {
+          "province_id": 62,
+          "province_name": "甘肃"
+        }
+      ],
+      "H": [
+        {
+          "province_id": 46,
+          "province_name": "海南"
+        },
+        {
+          "province_id": 13,
+          "province_name": "河北"
+        },
+        {
+          "province_id": 42,
+          "province_name": "湖北"
+        },
+        {
+          "province_id": 43,
+          "province_name": "湖南"
+        },
+        {
+          "province_id": 23,
+          "province_name": "黑龙江"
+        }
+      ],
+      "J": [
+        {
+          "province_id": 32,
+          "province_name": "江苏"
+        },
+        {
+          "province_id": 22,
+          "province_name": "吉林"
+        },
+        {
+          "province_id": 36,
+          "province_name": "江西"
+        }
+      ],
+      "L": [
+        {
+          "province_id": 21,
+          "province_name": "辽宁"
+        }
+      ],
+      "S": [
+        {
+          "province_id": 31,
+          "province_name": "上海"
+        },
+        {
+          "province_id": 37,
+          "province_name": "山东"
+        }
+      ],
+      "T": [
+        {
+          "province_id": 12,
+          "province_name": "天津"
+        }
+      ],
+      "Z": [
+        {
+          "province_id": 33,
+          "province_name": "浙江"
+        }
+      ]
+    },
+    "year": {
+      "11": [
+        {
+          "type": "1",
+          "province_id": 11,
+          "year": 2020
+        },
+        {
+          "type": "1",
+          "province_id": 11,
+          "year": 2024
+        }
+      ],
+      "12": [
+        {
+          "type": "1",
+          "province_id": 12,
+          "year": 2020
+        },
+        {
+          "type": "1",
+          "province_id": 12,
+          "year": 2024
+        }
+      ],
+      "13": [
+        {
+          "type": "2",
+          "province_id": 13,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 13,
+          "year": 2024
+        }
+      ],
+      "21": [
+        {
+          "type": "2",
+          "province_id": 21,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 21,
+          "year": 2024
+        }
+      ],
+      "22": [
+        {
+          "type": "2",
+          "province_id": 22,
+          "year": 2024
+        }
+      ],
+      "23": [
+        {
+          "type": "2",
+          "province_id": 23,
+          "year": 2024
+        }
+      ],
+      "31": [
+        {
+          "type": "1",
+          "province_id": 31,
+          "year": 2020
+        },
+        {
+          "type": "1",
+          "province_id": 31,
+          "year": 2024
+        }
+      ],
+      "32": [
+        {
+          "type": "2",
+          "province_id": 32,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 32,
+          "year": 2024
+        }
+      ],
+      "33": [
+        {
+          "type": "1",
+          "province_id": 33,
+          "year": 2018
+        },
+        {
+          "type": "1",
+          "province_id": 33,
+          "year": 2019
+        },
+        {
+          "type": "1",
+          "province_id": 33,
+          "year": 2020
+        },
+        {
+          "type": "1",
+          "province_id": 33,
+          "year": 2024
+        }
+      ],
+      "34": [
+        {
+          "type": "2",
+          "province_id": 34,
+          "year": 2024
+        }
+      ],
+      "35": [
+        {
+          "type": "2",
+          "province_id": 35,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 35,
+          "year": 2024
+        }
+      ],
+      "36": [
+        {
+          "type": "2",
+          "province_id": 36,
+          "year": 2024
+        }
+      ],
+      "37": [
+        {
+          "type": "1",
+          "province_id": 37,
+          "year": 2020
+        },
+        {
+          "type": "1",
+          "province_id": 37,
+          "year": 2021
+        },
+        {
+          "type": "1",
+          "province_id": 37,
+          "year": 2024
+        }
+      ],
+      "42": [
+        {
+          "type": "2",
+          "province_id": 42,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 42,
+          "year": 2024
+        }
+      ],
+      "43": [
+        {
+          "type": "2",
+          "province_id": 43,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 43,
+          "year": 2024
+        }
+      ],
+      "44": [
+        {
+          "type": "2",
+          "province_id": 44,
+          "year": 2021
+        }
+      ],
+      "45": [
+        {
+          "type": "2",
+          "province_id": 45,
+          "year": 2024
+        }
+      ],
+      "46": [
+        {
+          "type": "1",
+          "province_id": 46,
+          "year": 2020
+        },
+        {
+          "type": "1",
+          "province_id": 46,
+          "year": 2024
+        }
+      ],
+      "50": [
+        {
+          "type": "2",
+          "province_id": 50,
+          "year": 2021
+        },
+        {
+          "type": "2",
+          "province_id": 50,
+          "year": 2024
+        }
+      ],
+      "62": [
+        {
+          "type": "2",
+          "province_id": 62,
+          "year": 2024
+        }
+      ]
+    }
+  },
+  "md5": "d90c0af7eec327c913e9f9c71b2e7358"
+}

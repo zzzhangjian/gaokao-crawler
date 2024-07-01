@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.adc.dao.SchoolScoreLimitDao">
+
+    <insert id="insertList">
+        insert into school_score_limit(
+            province_id,
+            school_id,
+            year,
+            `min`,
+            `type`,
+            zslx,
+            batch,
+            name
+        ) values
+        <foreach collection="scoreList" item="score" separator=",">
+            (
+                #{score.provinceId},
+                #{score.schoolId},
+                #{score.year},
+                #{score.min},
+                #{score.type},
+                #{score.zslx},
+                #{score.batch},
+                #{score.name}
+            )
+        </foreach>
+        on duplicate key update
+            province_id=values(province_id),
+            school_id=values(school_id),
+            year=values(year),
+            `min`=values(min),
+            `type`=values(type),
+            zslx=values(zslx),
+            batch=values(batch),
+            name=values(name)
+    </insert>
+
+</mapper>

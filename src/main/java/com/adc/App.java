@@ -4,10 +4,11 @@ import com.adc.crawler.SchoolCrawler;
 import com.adc.crawler.SchoolDetailCrawler;
 import com.adc.crawler.SchoolProvinceScoreCrawler;
 import com.adc.utils.SchoolScoreCrawlerTaskGenerator;
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 
 public class App {
 
-    public static void main(String[] args) {
+    public static void main(MysqlxDatatypes.Scalar.String[] args) {
 
         // Step1: 爬取省份信息
         new ProvinceCrawler().crawl();
@@ -19,7 +20,7 @@ public class App {
         new SchoolDetailCrawler().crawl();
 
         // Step4: 生成分数爬虫任务
-        SchoolScoreCrawlerTaskGenerator.generateTask("2018", "34", 1);
+        SchoolScoreCrawlerTaskGenerator.generateTask("2023", "22", 1);
 
         // Step5: 爬取分数
         new SchoolProvinceScoreCrawler().crawl();

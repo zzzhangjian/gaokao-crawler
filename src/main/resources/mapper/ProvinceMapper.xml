@@ -13,4 +13,12 @@
             province_name as provinceName
         from province
     </select>
+
+    <insert id="insertList">
+        insert into province(province_id, province_name) values
+        <foreach collection="provinceList" item="province" separator=",">
+            (#{province.provinceId}, #{province.provinceName})
+        </foreach>
+        on duplicate key update province_id=values(province_id)
+    </insert>
 </mapper>

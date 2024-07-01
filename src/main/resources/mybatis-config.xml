@@ -7,8 +7,8 @@
         <environment id="dev">
             <transactionManager type="JDBC"/>
             <dataSource type="UNPOOLED">
-                <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/test"/>
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/open_gk?serverTimezone=UTC"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123456"/>
             </dataSource>
@@ -19,5 +19,6 @@
         <mapper resource="mapper/SchoolMapper.xml"/>
         <mapper resource="mapper/SchoolProvinceScoreCrawlTaskMapper.xml"/>
         <mapper resource="mapper/SchoolProvinceScoreMapper.xml"/>
+        <mapper resource="mapper/SchoolScoreLimitMapper.xml"/>
     </mappers>
 </configuration>
